@@ -1,0 +1,10 @@
+1-3: 
+hechos en la primera clase
+
+4:
+Paulinas-MacBook-Pro-2:media paulinaechegaray$ pwd
+/Users/paulinaechegaray/Documents/media
+Paulinas-MacBook-Pro-2:media paulinaechegaray$ mkdir memes-and-hopes
+
+5:
+
