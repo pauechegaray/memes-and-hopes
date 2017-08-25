@@ -7,4 +7,190 @@ Paulinas-MacBook-Pro-2:media paulinaechegaray$ pwd
 Paulinas-MacBook-Pro-2:media paulinaechegaray$ mkdir memes-and-hopes
 
 5:
+jejeps listo
+
+6:
+Paulinas-MacBook-Pro-2:media paulinaechegaray$ cd memes-and-hopes
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ pwd
+/Users/paulinaechegaray/Documents/media/memes-and-hopes
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ 
+
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git status
+fatal: Not a git repository (or any of the parent directories): .git :(
+
+7:
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git init
+Initialized empty Git repository in /Users/paulinaechegaray/Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ 
+
+8:
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	meme1.png
+	meme2.jpg
+	meme3.jpg
+	meme4jejeps.jpg
+	meme5.jpg
+	meme6.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ 
+
+En este caso nos indica que se inició un repositorio y que encontraron los memes sin que hayan sido agregados todavía
+
+
+9:
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git add meme1.png meme2.jpg meme3.jpg meme4jejeps.jpg meme5.jpg meme6.png
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   meme1.png
+	new file:   meme2.jpg
+	new file:   meme3.jpg
+	new file:   meme4jejeps.jpg
+	new file:   meme5.jpg
+	new file:   meme6.png
+
+
+10:
+	Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git commit -m "First commit with my best memes"
+[master (root-commit) 3006fc1] First commit with my best memes
+ Committer: Paulina Echegaray <paulinaechegaray@Paulinas-MacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 meme1.png
+ create mode 100644 meme2.jpg
+ create mode 100644 meme3.jpg
+ create mode 100644 meme4jejeps.jpg
+ create mode 100644 meme5.jpg
+ create mode 100644 meme6.png
+
+
+11:
+repositorio creado
+
+12:
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git remote add origin https://github.com/pauechegaray/memes-and-hopes.git
+
+13:
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git push -u origin master
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 968.46 KiB | 0 bytes/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/pauechegaray/memes-and-hopes.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+14:
+veo mis memes!!!!
+
+15:
+creado
+
+16:
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git add README.md 
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   README.md
+
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git commit -m "commit con mis hopes"
+[master 9fc65ed] commit con mis hopes
+ Committer: Paulina Echegaray <paulinaechegaray@Paulinas-MacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+ create mode 100644 README.md
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 375 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pauechegaray/memes-and-hopes.git
+   3006fc1..9fc65ed  master -> master
+
+
+
+17:
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git commit -m "commit triste sin querer un gatito"
+[master 080a7a1] commit triste sin querer un gatito
+ Committer: Paulina Echegaray <paulinaechegaray@Paulinas-MacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/pauechegaray/memes-and-hopes.git
+   9fc65ed..080a7a1  master -> master
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ 
+
+
+
+
+18:
+
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$ git diff
+Paulinas-MacBook-Pro-2:memes-and-hopes paulinaechegaray$  (no me salió ningun output.. ¿¿que hice mal??)
+
+19: 
+cambios agregados
+
+
+20: listo! 
+
+
+
 
